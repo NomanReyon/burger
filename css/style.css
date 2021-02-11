@@ -1,0 +1,129 @@
+/*
+global css section
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+a,a:hover{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+/*font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+
+/*
+header section css
+*/
+header{
+	width: 100%;
+	background-image: url(../img/banner.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	padding: 24px 0px;
+
+}
+.menu-item{
+	text-align: right;
+}
+.menu-item ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 32px;
+}
+.menu-item ul li a{
+font-family: 'Bebas Neue', cursive;
+font-weight: bold;
+text-transform: uppercase;
+color: #3d2514;
+letter-spacing: 3px;
+}
+.contact{
+	text-align: right;
+	margin-bottom: 16px;
+}
+.contact img{
+	vertical-align: middle;
+}
+.text-banner{
+	height: 80vh;
+	display: table-cell;
+	vertical-align: middle;
+}
+.text-banner p{
+	border: 1px dashed black;
+	padding: 8px;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	display: inline-block;
+}
+.text-banner h1{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 75px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-shadow: 3px 4px white;
+
+}
+.text-banner h3{
+	font-family: 'Alfa Slab One', cursive;
+	color: #3d2514;
+	font-size: 55px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-shadow: 2px 2px white;
+
+}
+/*burger gallery section
+*/
+.burger-gallery{
+	widows: 100%;
+	padding: 60px 0px;
+}
+.gallery{
+	display: flex;
+	
+}
+.left{
+	margin: 0px 15px;
+	position: relative;
+}
+.text{
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+.text h5 {
+	text-transform: uppercase;
+	color: white;
+}
+.text h2{
+	text-transform: uppercase;
+	color: white;
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+}
+.right{
+	margin: 0px 15px;
+	position: relative;
+}
+.text-reyon{
+	position: absolute;
+	top: 32px;
+	left: 15px
+
+}
